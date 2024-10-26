@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\NSBM\\2nd Year\\2nd sem\\SA\\Main Project\\SA_Main_Project\\Back-End\\Main project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C63F05A-B0F9-42E4-A84A-19841B6C9633}|Main project\\Main project.csproj|d:\\nsbm\\2nd year\\2nd sem\\sa\\main project\\sa_main_project\\back-end\\main project\\main project\\controllers\\newauctioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C63F05A-B0F9-42E4-A84A-19841B6C9633}|Main project\\Main project.csproj|solutionrelative:main project\\controllers\\newauctioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C63F05A-B0F9-42E4-A84A-19841B6C9633}|Main project\\Main project.csproj|d:\\nsbm\\2nd year\\2nd sem\\sa\\main project\\sa_main_project\\back-end\\main project\\main project\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6C63F05A-B0F9-42E4-A84A-19841B6C9633}|Main project\\Main project.csproj|solutionrelative:main project\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C63F05A-B0F9-42E4-A84A-19841B6C9633}|Main project\\Main project.csproj|d:\\nsbm\\2nd year\\2nd sem\\sa\\main project\\sa_main_project\\back-end\\main project\\main project\\models\\newauctionitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C63F05A-B0F9-42E4-A84A-19841B6C9633}|Main project\\Main project.csproj|solutionrelative:main project\\models\\newauctionitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C63F05A-B0F9-42E4-A84A-19841B6C9633}|Main project\\Main project.csproj|d:\\nsbm\\2nd year\\2nd sem\\sa\\main project\\sa_main_project\\back-end\\main project\\main project\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C63F05A-B0F9-42E4-A84A-19841B6C9633}|Main project\\Main project.csproj|solutionrelative:main project\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C63F05A-B0F9-42E4-A84A-19841B6C9633}|Main project\\Main project.csproj|d:\\nsbm\\2nd year\\2nd sem\\sa\\main project\\sa_main_project\\back-end\\main project\\main project\\models\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C63F05A-B0F9-42E4-A84A-19841B6C9633}|Main project\\Main project.csproj|solutionrelative:main project\\models\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C63F05A-B0F9-42E4-A84A-19841B6C9633}|Main project\\Main project.csproj|d:\\nsbm\\2nd year\\2nd sem\\sa\\main project\\sa_main_project\\back-end\\main project\\main project\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C63F05A-B0F9-42E4-A84A-19841B6C9633}|Main project\\Main project.csproj|solutionrelative:main project\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C63F05A-B0F9-42E4-A84A-19841B6C9633}|Main project\\Main project.csproj|d:\\nsbm\\2nd year\\2nd sem\\sa\\main project\\sa_main_project\\back-end\\main project\\main project\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C63F05A-B0F9-42E4-A84A-19841B6C9633}|Main project\\Main project.csproj|solutionrelative:main project\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C63F05A-B0F9-42E4-A84A-19841B6C9633}|Main project\\Main project.csproj|d:\\nsbm\\2nd year\\2nd sem\\sa\\main project\\sa_main_project\\back-end\\main project\\main project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C63F05A-B0F9-42E4-A84A-19841B6C9633}|Main project\\Main project.csproj|solutionrelative:main project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C63F05A-B0F9-42E4-A84A-19841B6C9633}|Main project\\Main project.csproj|d:\\nsbm\\2nd year\\2nd sem\\sa\\main project\\sa_main_project\\back-end\\main project\\main project\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C63F05A-B0F9-42E4-A84A-19841B6C9633}|Main project\\Main project.csproj|solutionrelative:main project\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C63F05A-B0F9-42E4-A84A-19841B6C9633}|Main project\\Main project.csproj|d:\\nsbm\\2nd year\\2nd sem\\sa\\main project\\sa_main_project\\back-end\\main project\\main project\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C63F05A-B0F9-42E4-A84A-19841B6C9633}|Main project\\Main project.csproj|solutionrelative:main project\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C63F05A-B0F9-42E4-A84A-19841B6C9633}|Main project\\Main project.csproj|d:\\nsbm\\2nd year\\2nd sem\\sa\\main project\\sa_main_project\\back-end\\main project\\main project\\main project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6C63F05A-B0F9-42E4-A84A-19841B6C9633}|Main project\\Main project.csproj|solutionrelative:main project\\main project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NewAuctionController.cs",
+              "DocumentMoniker": "D:\\NSBM\\2nd Year\\2nd sem\\SA\\Main Project\\SA_Main_Project\\Back-End\\Main project\\Main project\\Controllers\\NewAuctionController.cs",
+              "RelativeDocumentMoniker": "Main project\\Controllers\\NewAuctionController.cs",
+              "ToolTip": "D:\\NSBM\\2nd Year\\2nd sem\\SA\\Main Project\\SA_Main_Project\\Back-End\\Main project\\Main project\\Controllers\\NewAuctionController.cs",
+              "RelativeToolTip": "Main project\\Controllers\\NewAuctionController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAhwCgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T21:16:58.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NewAuctionItemModel.cs",
+              "DocumentMoniker": "D:\\NSBM\\2nd Year\\2nd sem\\SA\\Main Project\\SA_Main_Project\\Back-End\\Main project\\Main project\\Models\\NewAuctionItemModel.cs",
+              "RelativeDocumentMoniker": "Main project\\Models\\NewAuctionItemModel.cs",
+              "ToolTip": "D:\\NSBM\\2nd Year\\2nd sem\\SA\\Main Project\\SA_Main_Project\\Back-End\\Main project\\Main project\\Models\\NewAuctionItemModel.cs",
+              "RelativeToolTip": "Main project\\Models\\NewAuctionItemModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T21:16:26.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Main project.csproj",
+              "DocumentMoniker": "D:\\NSBM\\2nd Year\\2nd sem\\SA\\Main Project\\SA_Main_Project\\Back-End\\Main project\\Main project\\Main project.csproj",
+              "RelativeDocumentMoniker": "Main project\\Main project.csproj",
+              "ToolTip": "D:\\NSBM\\2nd Year\\2nd sem\\SA\\Main Project\\SA_Main_Project\\Back-End\\Main project\\Main project\\Main project.csproj",
+              "RelativeToolTip": "Main project\\Main project.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-24T19:33:57.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\NSBM\\2nd Year\\2nd sem\\SA\\Main Project\\SA_Main_Project\\Back-End\\Main project\\Main project\\Startup.cs",
+              "RelativeDocumentMoniker": "Main project\\Startup.cs",
+              "ToolTip": "D:\\NSBM\\2nd Year\\2nd sem\\SA\\Main Project\\SA_Main_Project\\Back-End\\Main project\\Main project\\Startup.cs",
+              "RelativeToolTip": "Main project\\Startup.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAqwDEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T19:34:06.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\NSBM\\2nd Year\\2nd sem\\SA\\Main Project\\SA_Main_Project\\Back-End\\Main project\\Main project\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Main project\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\NSBM\\2nd Year\\2nd sem\\SA\\Main Project\\SA_Main_Project\\Back-End\\Main project\\Main project\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Main project\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-24T19:11:23.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\NSBM\\2nd Year\\2nd sem\\SA\\Main Project\\SA_Main_Project\\Back-End\\Main project\\Main project\\Program.cs",
+              "RelativeDocumentMoniker": "Main project\\Program.cs",
+              "ToolTip": "D:\\NSBM\\2nd Year\\2nd sem\\SA\\Main Project\\SA_Main_Project\\Back-End\\Main project\\Main project\\Program.cs",
+              "RelativeToolTip": "Main project\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T18:56:35.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SignupController.cs",
+              "DocumentMoniker": "D:\\NSBM\\2nd Year\\2nd sem\\SA\\Main Project\\SA_Main_Project\\Back-End\\Main project\\Main project\\Controllers\\SignupController.cs",
+              "RelativeDocumentMoniker": "Main project\\Controllers\\SignupController.cs",
+              "ToolTip": "D:\\NSBM\\2nd Year\\2nd sem\\SA\\Main Project\\SA_Main_Project\\Back-End\\Main project\\Main project\\Controllers\\SignupController.cs",
+              "RelativeToolTip": "Main project\\Controllers\\SignupController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAASwCoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T18:39:32.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ViewModel.cs",
+              "DocumentMoniker": "D:\\NSBM\\2nd Year\\2nd sem\\SA\\Main Project\\SA_Main_Project\\Back-End\\Main project\\Main project\\Models\\ViewModel.cs",
+              "RelativeDocumentMoniker": "Main project\\Models\\ViewModel.cs",
+              "ToolTip": "D:\\NSBM\\2nd Year\\2nd sem\\SA\\Main Project\\SA_Main_Project\\Back-End\\Main project\\Main project\\Models\\ViewModel.cs",
+              "RelativeToolTip": "Main project\\Models\\ViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T20:37:46.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\NSBM\\2nd Year\\2nd sem\\SA\\Main Project\\SA_Main_Project\\Back-End\\Main project\\Main project\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Main project\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\NSBM\\2nd Year\\2nd sem\\SA\\Main Project\\SA_Main_Project\\Back-End\\Main project\\Main project\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Main project\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwBMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T20:35:27.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\NSBM\\2nd Year\\2nd sem\\SA\\Main Project\\SA_Main_Project\\Back-End\\Main project\\Main project\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Main project\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\NSBM\\2nd Year\\2nd sem\\SA\\Main Project\\SA_Main_Project\\Back-End\\Main project\\Main project\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Main project\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAmwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T20:00:43.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\NSBM\\2nd Year\\2nd sem\\SA\\Main Project\\SA_Main_Project\\Back-End\\Main project\\Main project\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Main project\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\NSBM\\2nd Year\\2nd sem\\SA\\Main Project\\SA_Main_Project\\Back-End\\Main project\\Main project\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Main project\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAmwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T15:58:49.67Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

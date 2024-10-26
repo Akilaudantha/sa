@@ -1,0 +1,147 @@
+/* Reset margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Ensure html and body take full height */
+html, body {
+  height: 100%;
+}
+
+/* Body background */
+body {
+  background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient background */
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background-color: rgba(0, 68, 204, 0.8); /* Transparent background */
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+nav a {
+  margin: 0 20px;
+  color: white;
+  font-size: 1.1em;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffdd57;
+}
+
+/* Main section grows to take available space */
+main {
+  flex-grow: 1; /* This makes sure the main section takes up remaining space */
+  padding: 40px;
+  text-align: center;
+}
+
+main h1 {
+  color: white;
+  font-size: 3em;
+  margin-bottom: 40px;
+  text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3); /* Make text more prominent */
+}
+
+/* Auction container with grid layout */
+.auction-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Auction items */
+.auction-item {
+  background-color: rgba(255, 255, 255, 0.9); /* Light, transparent background */
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.auction-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.auction-item img {
+  width: 100%;
+  border-radius: 10px;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.auction-item h2 {
+  margin-top: 15px;
+  font-size: 1.4em;
+  color: #333;
+}
+
+.auction-item p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.auction-item input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+.auction-item button {
+  margin-top: 15px;
+  padding: 12px;
+  width: 100%;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  font-size: 1.1em;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auction-item button:hover {
+  background-color: #218838;
+}
+
+/* Footer */
+footer {
+  background-color: rgba(0, 68, 204, 0.9); /* Slight transparency */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  font-size: 1.1em;
+  position: relative;
+  bottom: 0;
+}
+
+footer p {
+  margin: 0;
+}

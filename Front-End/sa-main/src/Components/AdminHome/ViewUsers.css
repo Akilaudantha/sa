@@ -1,0 +1,63 @@
+/* ViewUsers.css */
+
+/* Container for the view-users component */
+.view-users {
+    padding: 20px; /* Add some padding around the container */
+    background-color: #f9f9f9; /* Light background color for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Title styling */
+.view-users h1 {
+    color: #333; /* Darker text color */
+    font-size: 24px; /* Larger font size for the title */
+    margin-bottom: 20px; /* Space below the title */
+    text-align: center; /* Center align the title */
+}
+
+/* Styling for the users table */
+.users-table {
+    width: 100%; /* Full width of the container */
+    border-collapse: collapse; /* Remove gaps between table cells */
+}
+
+/* Table headers styling */
+.users-table th {
+    background-color: #007BFF; /* Bootstrap primary color */
+    color: #fff; /* White text color for headers */
+    padding: 12px; /* Padding for table header cells */
+    text-align: left; /* Left-align text in header cells */
+    font-weight: bold; /* Bold font for headers */
+}
+
+/* Table data cells styling */
+.users-table td {
+    border: 1px solid #ddd; /* Light border for table data */
+    padding: 10px; /* Padding for table data cells */
+    text-align: left; /* Left-align text in data cells */
+}
+
+/* Hover effect for table rows */
+.users-table tr:hover {
+    background-color: #f1f1f1; /* Light gray background on hover */
+}
+
+/* Styling for "No users found" message */
+.users-table td[colspan="2"] {
+    text-align: center; /* Center align the message */
+    color: #666; /* Gray color for the message text */
+    font-style: italic; /* Italicize the text */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .view-users {
+        padding: 10px; /* Less padding on smaller screens */
+    }
+
+    .users-table th, .users-table td {
+        padding: 8px; /* Smaller padding on smaller screens */
+        font-size: 14px; /* Adjust font size for better readability */
+    }
+}
