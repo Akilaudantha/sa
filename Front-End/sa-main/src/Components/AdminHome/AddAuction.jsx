@@ -1,4 +1,3 @@
-// AddAuction.js
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './AddAuction.css';
@@ -10,7 +9,6 @@ const AddAuction = () => {
   const [image, setImage] = useState(null);
   const navigate = useNavigate();
 
-  // Handle image file upload
   const handleImageChange = (e) => {
     const file = e.target.files[0];
     if (file) {
@@ -18,22 +16,21 @@ const AddAuction = () => {
     }
   };
 
-  // Submit new auction to the server
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Ensure required fields are filled
     if (!name || !startingBid || !image) {
       alert('Please fill all required fields.');
       return;
     }
 
-    // Prepare form data to send to the server
     const formData = new FormData();
     formData.append('name', name);
     formData.append('startingBid', startingBid);
-    formData.append('highestBid', highestBid || null); // Optional highest bid
+    formData.append('highestBid', highestBid || null);
     formData.append('image', image);
+
+    console.log({ name, startingBid, highestBid, image });
 
     try {
       const response = await fetch('http://localhost:5014/api/NewAuction/add', {
@@ -43,10 +40,10 @@ const AddAuction = () => {
 
       if (response.ok) {
         alert('Auction added successfully!');
-        navigate('/admin/manage-auctions');  // Navigate back to manage auctions page
+        navigate('/admin/manage-auctions');
       } else {
-        const errorMessage = await response.text(); // Capture the response text
-        alert(`Failed to add auction: ${errorMessage}`); // Show the error message
+        const errorMessage = await response.text();
+        alert(`Failed to add auction: ${errorMessage}`);
       }
     } catch (error) {
       console.error('Error adding auction:', error);

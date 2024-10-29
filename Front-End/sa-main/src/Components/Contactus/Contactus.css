@@ -1,0 +1,139 @@
+/* Ensures the entire viewport has the background image */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('./Logback.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-y: auto; /* Enables scrolling on body rather than on main */
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 120px); /* Adjusted height to account for navbar and footer */
+    padding-top: 80px; /* Space for fixed navbar */
+    padding-bottom: 80px; /* Space for fixed footer */
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  h2, p {
+    color: black;
+  }
+  
+  
+  /* Navbar styling for full width and alignment */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    background-color: rgba(0, 123, 255, 0.9); /* Semi-transparent blue background */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .navbar .logo {
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+  
+  .navbar-list {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navbar-list a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+ 
+  
+  .contactus-form label {
+    display: block;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contactus-form input,
+  .contactus-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+  .contactus-form textarea {
+    resize: vertical;
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer styling for full width and alignment */
+  .footer {
+    text-align: center;
+    
+    background-color: rgba(0, 123, 255, 0.9); /* Semi-transparent blue background */
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .footer p {
+    color: #ffffff;
+    margin: 0;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .social-media a {
+    color: #ffffff;
+  }
+  
