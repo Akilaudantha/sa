@@ -10,21 +10,26 @@ const LoginSignup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const response = await fetch('https://localhost:7037/api/login/signin', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ username, password }),
-    });
+    try {
+      const response = await fetch('http://localhost:5014/api/login/signin', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ username, password }),
+      });
 
-    const data = await response.text(); // Expecting a simple text response like "Login successful!" or "Invalid username or password."
+      const data = await response.text(); // Expecting a simple text response
 
-    if (response.ok) {
-      alert(data); // Show success message
-      navigate('/mainhome'); // Redirect to /home on successful login
-    } else {
-      alert(data); // Show error message
+      if (response.ok) {
+        alert(data); // Show success message
+        navigate('/mainhome'); // Redirect to /mainhome on successful login
+      } else {
+        alert(data); // Show error message
+      }
+    } catch (error) {
+      console.error('Error during login:', error);
+      alert('An error occurred while logging in.');
     }
   };
 
@@ -34,31 +39,33 @@ const LoginSignup = () => {
         <form onSubmit={handleSubmit} name='f1'>
           <h1>LogIn</h1>
           <table>
-            <tr>
-              <td>
-                <input
-                  type='text'
-                  placeholder='UserName'
-                  value={username}
-                  onChange={(e) => setUsername(e.target.value)}
-                />
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <input
-                  type='password'
-                  placeholder='Password'
-                  value={password}
-                  onChange={(e) => setPassword(e.target.value)}
-                />
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <button type='submit'>LogIn</button>
-              </td>
-            </tr>
+            <tbody>
+              <tr>
+                <td>
+                  <input
+                    type='text'
+                    placeholder='UserName'
+                    value={username}
+                    onChange={(e) => setUsername(e.target.value)}
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input
+                    type='password'
+                    placeholder='Password'
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <button type='submit'>LogIn</button>
+                </td>
+              </tr>
+            </tbody>
           </table>
           <p>You don't have an account? <a href='/sign'>Click Here!</a></p>
         </form>

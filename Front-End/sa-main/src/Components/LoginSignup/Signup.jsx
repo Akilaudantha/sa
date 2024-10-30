@@ -4,9 +4,11 @@ import './LogingSignup.css';
 
 const Signup = () => {
   const [username, setUsername] = useState('');
+  const [email, setEmail] = useState(''); // New state for email
   const [password, setPassword] = useState('');
   const [rePassword, setRePassword] = useState('');
   const navigate = useNavigate();
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -21,7 +23,7 @@ const Signup = () => {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ username, password }),
+      body: JSON.stringify({ username, email, password }), // Send email in request body
     });
 
     if (response.ok) {
@@ -42,6 +44,11 @@ const Signup = () => {
             <tr>
               <td>
                 <input type='text' placeholder='UserName' value={username} onChange={(e) => setUsername(e.target.value)} />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type='email' placeholder='Email' value={email} onChange={(e) => setEmail(e.target.value)} /> 
               </td>
             </tr>
             <tr>

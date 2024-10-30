@@ -39,6 +39,24 @@ input[type='text']:focus {
     border-color: #ffffff;
     background-color: #e6e6e6;
 }
+
+input[type='email'] {
+    width: 92%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+input[type='email']:focus {
+    outline: none;
+    border-color: #ffffff;
+    background-color: #e6e6e6;
+}
+
 input[type='password'] {
     width: 92%;
     padding: 12px;
@@ -49,6 +67,8 @@ input[type='password'] {
     background-color: #f0f0f0;
     text-align: center;
 }
+
+
 
 input[type='password']:focus {
     outline: none;

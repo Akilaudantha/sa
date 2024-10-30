@@ -14,7 +14,7 @@ const Home = () => {
         throw new Error(`HTTP error! Status: ${response.status}`);
       }
       const data = await response.json();
-      console.log('Fetched auction items:', data); // Debugging: log data to console
+      console.log('Fetched auction items:', data);
 
       setAuctionItems(data);
 

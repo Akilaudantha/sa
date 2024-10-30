@@ -9,7 +9,7 @@ const ManageAuctions = () => {
   // Fetch auction items from API
   const fetchAuctionItems = async () => {
     try {
-      const response = await fetch('http://localhost:7037/api/AuctionItems');
+      const response = await fetch('http://localhost:5014/api/AuctionItems');
       const data = await response.json();
       setAuctionItems(data);
     } catch (error) {
@@ -19,15 +19,21 @@ const ManageAuctions = () => {
 
   // Delete auction
   const deleteAuction = async (id) => {
-    try {
-      const response = await fetch(`http://localhost:7037/api/AuctionItems/${id}`, {
-        method: 'DELETE',
-      });
-      if (response.ok) {
-        setAuctionItems(auctionItems.filter(item => item.id !== id));
+    if (window.confirm("Are you sure you want to delete this auction item?")) {
+      try {
+        const response = await fetch(`http://localhost:5014/api/AuctionDelete/${id}`, {
+          method: 'DELETE',
+        });
+        if (response.ok) {
+          // Filter out the deleted item from state
+          setAuctionItems(auctionItems.filter(item => item.id !== id));
+        } else {
+          const errorData = await response.json();
+          alert(errorData.message || "Failed to delete auction.");
+        }
+      } catch (error) {
+        console.error('Failed to delete auction:', error);
       }
-    } catch (error) {
-      console.error('Failed to delete auction:', error);
     }
   };
 
@@ -53,8 +59,7 @@ const ManageAuctions = () => {
         {auctionItems.map((item) => (
           <div key={item.id} className="auction-item">
             <h2>{item.name}</h2>
-            <p>Starting Bid: ${item.starting_bid}</p>
-            <p>Highest Bid: ${item.highest_bid || item.starting_bid}</p>
+            
             <button onClick={() => updateAuction(item.id)} className="edit-button">Edit</button>
             <button onClick={() => deleteAuction(item.id)} className="delete-button">Delete</button>
           </div>

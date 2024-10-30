@@ -25,7 +25,7 @@
 /* Table headers styling */
 .users-table th {
     background-color: #007BFF; /* Bootstrap primary color */
-    color: #fff; /* White text color for headers */
+    color: #000000; /* White text color for headers */
     padding: 12px; /* Padding for table header cells */
     text-align: left; /* Left-align text in header cells */
     font-weight: bold; /* Bold font for headers */
@@ -36,6 +36,7 @@
     border: 1px solid #ddd; /* Light border for table data */
     padding: 10px; /* Padding for table data cells */
     text-align: left; /* Left-align text in data cells */
+    color: black;
 }
 
 /* Hover effect for table rows */
