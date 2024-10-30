@@ -1,0 +1,264 @@
+/* Overall Page Styling */
+.homepage {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #ffffff, #f0f4ff);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #007bff; /* Navbar background color */
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo span {
+  color: #ffcc00; /* Gold color for emphasis */
+}
+
+.navbar-list {
+  list-style-type: none; /* Remove default bullet points */
+  display: flex; /* Display list items in a row */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.navbar-list li {
+  margin-left: 20px; /* Space between items */
+  position: relative; /* Positioning for pseudo-elements */
+}
+
+.navbar-list li::before {
+  content: '•'; /* Bullet character */
+  color: white; /* Bullet color */
+  font-size: 20px; /* Adjust bullet size */
+  margin-right: 10px; /* Space between bullet and text */
+  position: absolute; /* Positioning */
+  left: -25px; /* Position the bullet */
+}
+
+/* Remove bullet for the first item */
+.navbar-list li:first-child::before {
+  content: ''; /* No bullet for the first item */
+}
+
+/* Navbar Links */
+.navbar-list a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar-list a:hover {
+  color: #ffcc00; /* Gold color on hover */
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  padding: 4rem 1rem;
+  background: #333;
+  color: #c82020;
+  background-image: url('img2.jpg');
+  background-size: cover; /* Ensure the image covers the section */
+  background-position: center; /* Center the background image */
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+/* Carousel Section */
+.carousel-section {
+  padding: 2rem 1rem;
+  text-align: center;
+  background: #007bff; /* Carousel background color */
+  color: white;
+  height: 270px; /* Fixed height for the carousel */
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  height: 100%; /* Full height of the carousel section */
+}
+
+.carousel-image {
+  width: 100%; /* Full width of the carousel */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners for images */
+}
+
+/* Auction Categories */
+.auction-categories {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.auction-categories h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.category {
+  padding: 0.75rem 1.5rem;
+  background-color: #eee;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.category:hover {
+  background-color: #ccc;
+}
+
+/* About Section */
+.about-section {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #f8f9fa;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Profile Container Styles */
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #007bff;
+  color: white;
+}
+
+.profile-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.profile-avatar img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 3px solid #007bff;
+}
+
+.profile-card h1 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.profile-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.profile-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.profile-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+.profile-table strong {
+  color: #333;
+}
+
+.profile-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.edit-btn,
+.logout-btn {
+  padding: 8px 15px;
+  font-size: 14px;
+  margin: 0 5px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+.edit-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #218838;
+}
+
+.logout-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.logout-btn:hover {
+  background-color: #c82333;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

@@ -1,0 +1,56 @@
+.manage-auctions {
+  padding: 20px;
+}
+
+.add-auction-button {
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.auction-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.auction-item {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  width: 300px;
+  position: relative;
+}
+
+.auction-item h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.auction-item p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.edit-button, .delete-button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+
+.edit-button {
+  background-color: #4caf50;
+  margin-right: 10px;
+}
+
+.delete-button {
+  background-color: #f44336;
+}

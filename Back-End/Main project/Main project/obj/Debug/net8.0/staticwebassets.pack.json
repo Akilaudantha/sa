@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\NSBM\\2nd Year\\2nd sem\\SA\\Main Project\\New folder\\sa\\Back-End\\Main project\\Main project\\wwwroot\\481ca3e2-de34-4faf-877a-3d31d8327753.jpg",
+      "PackagePath": "staticwebassets\\481ca3e2-de34-4faf-877a-3d31d8327753.jpg"
+    },
+    {
+      "Id": "D:\\NSBM\\2nd Year\\2nd sem\\SA\\Main Project\\New folder\\sa\\Back-End\\Main project\\Main project\\wwwroot\\cf93eb1b-70de-44ca-80c4-c6b930630ca5.jpg",
+      "PackagePath": "staticwebassets\\cf93eb1b-70de-44ca-80c4-c6b930630ca5.jpg"
+    },
+    {
+      "Id": "D:\\NSBM\\2nd Year\\2nd sem\\SA\\Main Project\\New folder\\sa\\Back-End\\Main project\\Main project\\wwwroot\\uploads\\481ca3e2-de34-4faf-877a-3d31d8327753.jpg",
+      "PackagePath": "staticwebassets\\uploads\\481ca3e2-de34-4faf-877a-3d31d8327753.jpg"
+    },
+    {
+      "Id": "D:\\NSBM\\2nd Year\\2nd sem\\SA\\Main Project\\New folder\\sa\\Back-End\\Main project\\Main project\\wwwroot\\uploads\\9094257a-9214-4c52-8ca2-cab24e7de00a.png",
+      "PackagePath": "staticwebassets\\uploads\\9094257a-9214-4c52-8ca2-cab24e7de00a.png"
+    },
+    {
+      "Id": "D:\\NSBM\\2nd Year\\2nd sem\\SA\\Main Project\\New folder\\sa\\Back-End\\Main project\\Main project\\wwwroot\\uploads\\cf93eb1b-70de-44ca-80c4-c6b930630ca5.jpg",
+      "PackagePath": "staticwebassets\\uploads\\cf93eb1b-70de-44ca-80c4-c6b930630ca5.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Main project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Main project.props",
+      "PackagePath": "build\\Main project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Main project.props",
+      "PackagePath": "buildMultiTargeting\\Main project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Main project.props",
+      "PackagePath": "buildTransitive\\Main project.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
